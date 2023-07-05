@@ -1,5 +1,6 @@
 .flex {
     display: flex;
+ 
 
 }
 
@@ -21,19 +22,90 @@
     width: 70%;
     height: 20px;
     font-size: 15px;
-    margin-right: 60px;
+    margin: 15px;
     padding-top: 40px;
+   
 }
 
-.main_box {
-    border-right: solid 1px gray;
+
+
+.comida img {
+    width: 100%;
+    
+}
+
+
+    
+.volver a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+ font-size: 15px;
+}
+/*foooter*/
+.footer{
+    background-color: rgb(220, 220, 220);
+width: 100%;
+display: flex;
+}
+.footer__img img{
+    background-position: left top;
+    width: 50%;
+    height: 80%;
+    margin: 10px;
+    justify-content: flex-start;
+}
+.redes ul li a{
+color:#fefae0;;
+font-size: 10px;
+padding: 40px;
+margin-left: 9%;
+text-transform: uppercase;
+
+
+}
+hr {
+border: 0;
+    border-top: 1px solid #999; 
+ height:10px;
+ border-radius:100%;
+    }
+     .comida{
+        border-left: 1px solid gray;
+        height: 10%;
+      border-radius: 0%;
+      margin: 30px auto;
+    }
+
+
+
+@media(min-width:768px){
+
+    .main_box li {
+        width: 100%;
+        height: 20px;
+        font-size: 25px;
+        margin: 0px;
+        padding-top: 100px;
+       
 }
 
 .comida img {
-    width: 50%;
-    float: right;
+    width: 40%;
+margin-left: 40%;
+}
+.volver a{
+
+ font-size: 25px;
+}
+.redes li{
+    font-size: 40px;
+   margin-left: 100%;
+   text-decoration:underline;
+   color:#fefae0;
+}
 }
 
-.comida {
-    padding-top: 30px;
+@media(min-width:1024px){
+
 }
